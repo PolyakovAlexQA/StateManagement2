@@ -4,7 +4,6 @@ public class Post {
     private int id;
     private int idOwner;
     private int idFrom;
-    private int idCreatedBy;
     private int date;
     private int text;
     private int idReplyOwner;
@@ -26,5 +25,11 @@ public class Post {
     private int markedAsAds;
     private boolean isFavorite;
     private int postponedId;
+    private int count;
+    private int canPost;
+    private int groupScanPost;
+    private boolean CanClose;
+    private boolean CanOpen;
+    private int CanPublish;
 
 }
