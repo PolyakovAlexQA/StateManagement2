@@ -1,5 +1,8 @@
 package ru.netology.domain.vk;
 
+import lombok.Data;
+
+@Data
 public class PostSource {
     private String type;
     private String platform;
@@ -7,3 +10,4 @@ public class PostSource {
     private String url;
 
 }
+

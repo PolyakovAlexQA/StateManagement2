@@ -1,5 +1,9 @@
 package ru.netology.domain.vk;
 
+import lombok.Data;
+
+@Data
+
 public class PlaceInfo {
     private int id;
     private String title;

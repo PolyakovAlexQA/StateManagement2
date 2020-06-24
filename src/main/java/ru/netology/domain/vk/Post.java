@@ -1,5 +1,8 @@
 package ru.netology.domain.vk;
 
+import lombok.Data;
+
+@Data
 public class Post {
     private int id;
     private int idOwner;
@@ -28,8 +31,7 @@ public class Post {
     private int count;
     private int canPost;
     private int groupScanPost;
-    private boolean CanClose;
-    private boolean CanOpen;
-    private int CanPublish;
-
+    private boolean canClose;
+    private boolean canOpen;
+    private boolean canPublish;
 }
